@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<!--CONTENIDO-->
+<html>
+    <head>
+        <title>Contenido - Revo Sport</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Libreria-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+              integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+              crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="estilocontenido.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="./modal.css">
+        <link rel="stylesheet" href="./lista.css">
+        <link rel="stylesheet" href="./menu.css">
+    </head>
+    <body>
+        
+        <header>
+            <img class="logo" src="./revo1.png" alt="Logo">
+            <button id="abrir" class="abrir-menu"><i class="fa-solid fa-bars"></i></button>
+            <nav class="nav" id="nav">
+                <button class="cerrar-menu" id="cerrar"><i class="fa-solid fa-bars"></i></button>
+                <ul class="nav-list">
+                    <li>
+                        <a class="carrito"><i class="fa-solid fa-cart-shopping"></i>
+                            <table class="ul-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Nombre</th>
+                                        <th>Cantidad</th>
+                                        <th>Precio</th>
+                                        <th>Eliminar</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="contenido-carrito">
+
+                                </tbody>
+                            </table>
+                        </a>
+                    </li>
+                    
+                    <li><a href="./vistaprincipal.html">Inicio</a></li>
+                    <li><a href="./servicios.html">Servicios</a></li>
+                    <li><a href="./contenido.html">Contenido</a></li>
+                    <li><a href="./loginyregistro.html">Inscríbete!</a></li>
+                    
+                </ul>
+            </nav>
+        </header>
+
+        <!--GALERIA-->
+        <div class="galeria box-galeria">
+            <div class="info">
+                <h2 class="title">TIENDA DE RUTINAS ONLINE</h2> 
+            </div>
+            <!--FOTOS-->
+            <div class="lista"></div>
+            <div class="grid-galeria">
+                <div class="galeria gitem">
+                    <div class="foto">
+                        <img src="./ejercicios/pilates.webp" alt="">
+                    </div>
+                    <div class="pie">
+                        <p class="title-item">Pilates para el Core</p> 
+                        <p class="hidden">
+                            Programa de 6 semanas enfocado en fortalecer el core a través de ejercicios de pilates. Ideal para mejorar la postura, la estabilidad y la fuerza central.
+                        </p>
+                        <p class="hidden precio">$24.99</p>
+                        <button class="open_modal" >Saber mas</button>   
+                    </div>
+                </div>
+                <div class="galeria gitem">
+                    <div class="foto">
+                        <img src="./ejercicios/encasa.jpeg" alt="">
+                    </div>
+                    <div class="pie">
+                        <p class="title-item">Entrenamiento en Casa sin Equipo</p>
+                        <p class="hidden">
+                            Rutina de 4 semanas que utiliza solo el peso corporal para realizar ejercicios efectivos en casa. Incluye videos instructivos y planificaciones diarias.    
+                        </p>
+                        <p class="hidden precio">$14.99</p>
+                        <button class="open_modal">Saber mas</button>   
+                    </div>
+                </div>
+                <div class="galeria gitem">
+                    <div class="foto">
+                        <img src="./ejercicios/reto.jpg" alt="">
+                    </div>
+                    <div class="pie">
+                        <p  class="title-item">Reto de 30 Días: Cuerpo en Forma</p>
+                        <p class="hidden">
+                            Un programa intensivo de 30 días diseñado para transformar tu cuerpo. Incluye una combinación de entrenamiento de fuerza, cardio y flexibilidad para obtener resultados rápidos y sostenibles.
+                        </p>
+                        <p class="hidden precio">$29.99</p>
+                        <button class="open_modal">Saber mas</button>   
+                    </div>
+                </div>
+                <div class="galeria gitem">
+                    <div class="foto">
+                        <img src="./ejercicios/funcional.webp" alt="">
+                    </div>
+                    <div class="pie">
+                        <p  class="title-item">Entrenamiento Funcional Total</p> 
+                        <p class="hidden">
+                            Rutina de 8 semanas que se centra en movimientos funcionales que mejoran la fuerza, la estabilidad y la movilidad. Ideal para mejorar el rendimiento en actividades diarias y deportivas.
+                        </p>
+                        <p class="hidden precio">$49.99</p>
+                        <button class="open_modal">Saber mas</button>   
+                    </div>
+                </div>
+                <div class="galeria gitem">
+                    <div class="foto">
+                        <img src="./ejercicios/yoga.webp" alt="">
+                    </div>
+                    <div class="pie">
+                        <p class="title-item">Yoga para Principiantes</p>
+                        <p class="hidden">
+                            Programa de 4 semanas que introduce a los principiantes al mundo del yoga. Incluye sesiones diarias de yoga suave y meditación para mejorar la flexibilidad y reducir el estrés.
+                        </p>
+                        <p class="hidden precio">$19.99</p>
+                        <button class="open_modal">Saber mas</button>   
+                    </div>
+                </div>
+                <div class="galeria gitem">
+                    <div class="foto">
+                        <img src="./ejercicios/entrenamiento-hiit.webp" alt="">
+                    </div>
+                    <div class="pie">
+                        <p class="title-item">HIIT para Quemar Grasa</p>
+                        <p class="hidden">
+                            Rutina de entrenamiento de alta intensidad (HIIT) de 6 semanas diseñada para maximizar la quema de grasa en poco tiempo. Cada sesión dura entre 20 y 30 minutos.
+                        </p>
+                        <p class="hidden precio">$39.99</p>
+                        <button class="open_modal">Saber mas</button>   
+                    </div>
+                </div>
+                <div class="galeria gitem">
+                    <div class="foto">
+                        <img src="./ejercicios/ejercicios_de_fuerza_en_casa_50800_orig.jpg" alt="">
+                    </div>
+                    <div class="pie">
+                        <p class="title-item">Fuerza y Resistencia Avanzada</p>
+                        <p class="hidden">
+                            Un programa de 12 semanas que se centra en el levantamiento de pesas y ejercicios de resistencia avanzada para aumentar la fuerza muscular y la resistencia física.
+                        </p>
+                        <p class="hidden precio">200$</p>
+                        <button class="open_modal">Saber mas</button>   
+                    </div>
+                </div>
+                <div class="galeria gitem">
+                    <div class="foto">
+                        <img src="./ejercicios/cardio.jpg" alt="">
+                    </div>
+                    <div class="pie">
+                        <p class="title-item">Cardio Dance Fitnes</p>
+                        <p class="hidden">
+                            Rutina de 8 semanas que combina movimientos de baile con ejercicios de cardio para una divertida y efectiva sesión de entrenamiento. Perfecto para quienes buscan una forma divertida de mantenerse en forma.
+                        </p>
+                        <p class="hidden precio">$34.99</p>
+                        <button class="open_modal">Saber mas</button>   
+                    </div>
+                </div>
+            </div>
+            <div class="info title">
+                <h2 class="tittle marquee" data-text="RUTINAS">RUTINAS</h2>
+            </div>
+            <div class="iframe-container frame-grid">
+                <div class="iframe">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/LF1yCaP-hSw?si=DckbJgIeQYSXq0lK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="iframe">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/H6V_Vdzg-xE?si=eMKbQHDEa_0kkONl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="iframe">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KmFJVD5e-gU?si=2gCcElX7eAtpszAC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+            <h3 class="title">SEDES EN AREQUIPA</h3>
+            <div class="iframe-container frame-grid">
+                <div class="iframe">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.961639899776!2d-71.56213432403933!3d-16.375916384348923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424a11c8e84a71%3A0xe2cff0b88bb16b97!2sRevo%20Sport%20Cerro%20Colorado!5e0!3m2!1ses-419!2spe!4v1726290182586!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                    <p class="txt-iframe">Sede Cerro Colorado</p>
+                </div>
+                <div class="iframe">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.3938979264635!2d-71.52971332403882!3d-16.404809484324407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424aff97f582b3%3A0x56a256640117aeba!2sRevo%20Sport%20-%20Centro!5e0!3m2!1ses-419!2spe!4v1726291388764!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                    <p class="txt-iframe">Sede Centro</p>
+                </div>
+                <div class="iframe">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.258156954535!2d-71.5595204240388!3d-16.41171018431855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424b2bb2571d19%3A0x5558a9a5f2cb900b!2sRevo%20Sport%20Sachaca!5e0!3m2!1ses-419!2spe!4v1726291607039!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>  
+                    <p class="txt-iframe">Sede Sachaca</p>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <p>&copy; 2024 Mi Sitio Web. Todos los derechos reservados.<br><span> Diaz Quispe, Belén<br>Iglesias Gonzales, Fabian</span></p>
+        </div>
+
+        <div id="modal_container" class="modal-container">
+            <div class="modal">
+                <div class="photo-modal">
+                    <div class="ipm content-img">
+                        <img class="show-img" src="" alt="">
+                    </div>
+                    <div class="ipm">
+                        <div class="box-info-img">
+                            <h1 class="title">
+
+                            </h1>
+                            <p class="description">
+
+                            </p>
+                            <div class="datos-precio">Precio: 
+                                <p class="precio">
+                                </p>
+                            </div>
+                           
+                            <button id="agregar">Inscribirme</button>
+                            <button id="close">X</button>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./modal.js"></script>
+        <script src="./lista.js"></script>
+        <script src="./menu.js"></script>
+    </body>
+</html>
